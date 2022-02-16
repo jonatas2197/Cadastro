@@ -51,11 +51,11 @@ function addToTable(cachorro) {
   const acoesCell = row.insertCell();
 
   const deleteButton = document.createElement("button");
-  deleteButton.innerHTML = "remover";
+  deleteButton.innerHTML = "Excluir";
   deleteButton.addEventListener("click", removeDog);
 
   const editButton = document.createElement("button");
-  editButton.innerHTML = "edit";
+  editButton.innerHTML = "Editar";
   editButton.addEventListener("click", editDog);
 
   nomeCell.appendChild(document.createTextNode(cachorro.nome));

@@ -66,3 +66,21 @@ form select {
   outline: none;
   margin-right: 10px;
 }
+
+td {
+  align-items: center;
+  border: 1px solid lightgray;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 15px;
+  text-align: center;
+}
+
+td button {
+  border-style: none;
+  padding: 5px;
+  margin-left: 3px;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
