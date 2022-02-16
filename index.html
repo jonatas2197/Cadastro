@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cadastro de Cachorros</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de Cachorros</h1>
+    </header>
+    <main>
+      <h2>Cadastro de Cachorros</h2>
+      <form>
+        <input type="text" id="nome" />
+        <input type="number" id="idade" />
+        <select name="raca" id="raca">
+          <option value="Fila"></option>
+          <option value="Poodlle">Akita</option>
+          <option value="Boxer">Boxer</option>
+          <option value="Fila">Beagle</option>
+          <option value="Fila">Border collie</option>
+          <option value="Fila">Buldogue francês</option>
+        </select>
+        <button type="button" class="button blue" id="btn-salvar">
+          Salvar
+        </button>
+      </form>
+      <table class="dogs">
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Raça</th>
+        </tr>
+        <tr>
+          <td>Thor</td>
+          <td>11</td>
+          <td>Boxer</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
